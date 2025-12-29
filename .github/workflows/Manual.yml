@@ -1,0 +1,12 @@
+name: Manual
+
+on:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greetings
+        run: eacho "Hello World"
